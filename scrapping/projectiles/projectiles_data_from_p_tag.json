@@ -1,0 +1,1128 @@
+[
+    {
+        "name": "Anchor",
+        "id": "anchor",
+        "image": "https://shipoffools.wiki.gg/images/thumb/5/53/Sand_Dollar.png/50px-Sand_Dollar.png?cd5df9",
+        "damage": 15,
+        "magazine_size": 10,
+        "effects": [
+            "Reduce firerate by 50%",
+            "reduce projectile speed by 20%"
+        ],
+        "description": "Sends your enemies to the bottom of the sea.",
+        "unlock": "By Default",
+        "rarity": "C",
+        "selling_price": 150,
+        "availabilities": [
+            "Everywhere"
+        ],
+        "type": "Unknown"
+    },
+    {
+        "name": "Blazing Shell",
+        "id": "blazing-shell",
+        "image": "https://shipoffools.wiki.gg/images/thumb/5/53/Sand_Dollar.png/50px-Sand_Dollar.png?cd5df9",
+        "damage": 8,
+        "magazine_size": 8,
+        "effects": [
+            "Fire"
+        ],
+        "description": "An abode ablaze.",
+        "unlock": "",
+        "rarity": "A",
+        "selling_price": 380,
+        "availabilities": [
+            "Everywhere"
+        ],
+        "type": "Unknown"
+    },
+    {
+        "name": "Boiling Pot",
+        "id": "boiling-pot",
+        "image": "https://shipoffools.wiki.gg/images/thumb/5/53/Sand_Dollar.png/50px-Sand_Dollar.png",
+        "damage": 8,
+        "magazine_size": 8,
+        "effects": [
+            "Fire",
+            "Ice"
+        ],
+        "description": "Perfectly heated to steam your enemies.",
+        "unlock": "",
+        "rarity": "S",
+        "selling_price": 510,
+        "availabilities": [
+            "Everywhere"
+        ],
+        "type": "Unknown"
+    },
+    {
+        "name": "Bomb",
+        "id": "bomb",
+        "image": "https://shipoffools.wiki.gg/images/thumb/5/53/Sand_Dollar.png/50px-Sand_Dollar.png",
+        "damage": 100,
+        "magazine_size": 1,
+        "effects": [
+            "Splash"
+        ],
+        "description": "Creates a great explosion. Partially refills every encounters.",
+        "unlock": "By Default",
+        "rarity": "A",
+        "selling_price": 380,
+        "availabilities": [
+            "Everywhere"
+        ],
+        "type": "Unknown"
+    },
+    {
+        "name": "Can Of Beans",
+        "id": "can-of-beans",
+        "image": "https://shipoffools.wiki.gg/images/thumb/5/53/Sand_Dollar.png/50px-Sand_Dollar.png?cd5df9",
+        "damage": 3,
+        "magazine_size": 16,
+        "effects": [
+            "Bounce 1"
+        ],
+        "description": "Meticulously designed to be chock-full of beans.",
+        "unlock": "By Default",
+        "rarity": "C",
+        "selling_price": 150,
+        "availabilities": [
+            "Everywhere"
+        ],
+        "type": "Unknown"
+    },
+    {
+        "name": "Corn On The Cob",
+        "id": "corn-on-the-cob",
+        "image": "https://shipoffools.wiki.gg/images/thumb/5/53/Sand_Dollar.png/50px-Sand_Dollar.png?cd5df9",
+        "damage": 3,
+        "magazine_size": 16,
+        "effects": [
+            "Bounce 3",
+            "Spread 3"
+        ],
+        "description": "Pelt your enemies with many kernels till they pop.",
+        "unlock": "",
+        "rarity": "S",
+        "selling_price": 510,
+        "availabilities": [
+            "Everywhere"
+        ],
+        "type": "Unknown"
+    },
+    {
+        "name": "Crystal Ball",
+        "id": "crystal-ball",
+        "image": "https://shipoffools.wiki.gg/images/thumb/5/53/Sand_Dollar.png/50px-Sand_Dollar.png?cd5df9",
+        "damage": 20,
+        "magazine_size": 5,
+        "effects": [
+            "Chaos"
+        ],
+        "description": "A source of absolute chaos in the hands of simple Fools.",
+        "unlock": "By Default",
+        "rarity": "S",
+        "selling_price": 510,
+        "availabilities": [
+            "Gifted by Horacles Jr. when he has nothing else to give you"
+        ],
+        "type": "Unknown"
+    },
+    {
+        "name": "Dynamite",
+        "id": "dynamite",
+        "image": "https://shipoffools.wiki.gg/images/thumb/5/53/Sand_Dollar.png/50px-Sand_Dollar.png?cd5df9",
+        "damage": 5,
+        "magazine_size": 2,
+        "effects": [
+            "Spawn Dynamite that explodes for 100 damage after 3 seconds"
+        ],
+        "description": "Create a delayed explosion. Partially refills every encounter.",
+        "unlock": "By Default",
+        "rarity": "A",
+        "selling_price": 380,
+        "availabilities": [
+            "Everywhere"
+        ],
+        "type": "Unknown"
+    },
+    {
+        "name": "Ember Toucan",
+        "id": "ember-toucan",
+        "image": "https://shipoffools.wiki.gg/images/thumb/5/53/Sand_Dollar.png/50px-Sand_Dollar.png?cd5df9",
+        "damage": 10,
+        "magazine_size": 6,
+        "effects": [
+            "Fire",
+            "Splash"
+        ],
+        "description": "Lays fire eggs.",
+        "unlock": "By Default",
+        "rarity": "B",
+        "selling_price": 240,
+        "availabilities": [
+            "Everywhere"
+        ],
+        "type": "Unknown"
+    },
+    {
+        "name": "Explosive Eagle",
+        "id": "explosive-eagle",
+        "image": "https://shipoffools.wiki.gg/images/thumb/5/53/Sand_Dollar.png/50px-Sand_Dollar.png?cd5df9",
+        "damage": 20,
+        "magazine_size": 6,
+        "effects": [
+            "Splash"
+        ],
+        "description": "Lays explosive eggs.",
+        "unlock": "",
+        "rarity": "A",
+        "selling_price": 380,
+        "availabilities": [
+            "Everywhere"
+        ],
+        "type": "Unknown"
+    },
+    {
+        "name": "Fish Eye",
+        "id": "fish-eye",
+        "image": "https://shipoffools.wiki.gg/images/a/a4/Fish_Eye.png",
+        "damage": 8,
+        "magazine_size": 6,
+        "effects": [
+            "Bounce 1",
+            "travel speed increased by 1.5"
+        ],
+        "description": "A gift bestowed by the Red Scourge to only the worthiest of sailors.",
+        "unlock": "",
+        "rarity": "Unique",
+        "selling_price": 0,
+        "availabilities": [
+            "Everywhere"
+        ],
+        "type": "Unknown"
+    },
+    {
+        "name": "Fishing Net",
+        "id": "fishing-net",
+        "image": "https://shipoffools.wiki.gg/images/thumb/5/53/Sand_Dollar.png/50px-Sand_Dollar.png?cd5df9",
+        "damage": 100,
+        "magazine_size": 1,
+        "effects": [
+            "Spawn a fishing net on hit that will loot everything around it. Also spawns a chest when it kills an enemy."
+        ],
+        "description": "Spawns a chest on kill then brings back all surrounding loot.",
+        "unlock": "",
+        "rarity": "S",
+        "selling_price": 510,
+        "availabilities": [
+            "Everywhere"
+        ],
+        "type": "Unknown"
+    },
+    {
+        "name": "Flaming Torch",
+        "id": "flaming-torch",
+        "image": "https://shipoffools.wiki.gg/images/thumb/5/53/Sand_Dollar.png/50px-Sand_Dollar.png?cd5df9",
+        "damage": 3,
+        "magazine_size": 10,
+        "effects": [
+            "Fire",
+            "Oil"
+        ],
+        "description": "Light the way to victory with oil and fire.",
+        "unlock": "",
+        "rarity": "S",
+        "selling_price": 510,
+        "availabilities": [
+            "Everywhere"
+        ],
+        "type": "Unknown"
+    },
+    {
+        "name": "Fries",
+        "id": "fries",
+        "image": "https://shipoffools.wiki.gg/images/thumb/5/53/Sand_Dollar.png/50px-Sand_Dollar.png?cd5df9",
+        "damage": 3,
+        "magazine_size": 6,
+        "effects": [
+            "Bounce 1",
+            "reduce seagull spawn timer by 100 seconds."
+        ],
+        "description": "Attracts the most magnificent of creatures.",
+        "unlock": "By Default",
+        "rarity": "C",
+        "selling_price": 150,
+        "availabilities": [
+            "Everywhere"
+        ],
+        "type": "Unknown"
+    },
+    {
+        "name": "Frost Jay",
+        "id": "frost-jay",
+        "image": "https://shipoffools.wiki.gg/images/thumb/5/53/Sand_Dollar.png/50px-Sand_Dollar.png?cd5df9",
+        "damage": 10,
+        "magazine_size": 6,
+        "effects": [
+            "Ice (5 stacks)"
+        ],
+        "description": "Lays ice eggs.",
+        "unlock": "By Default",
+        "rarity": "B",
+        "selling_price": 240,
+        "availabilities": [
+            "Everywhere"
+        ],
+        "type": "Unknown"
+    },
+    {
+        "name": "Frozen Wave",
+        "id": "frozen-wave",
+        "image": "https://shipoffools.wiki.gg/images/thumb/5/53/Sand_Dollar.png/50px-Sand_Dollar.png?cd5df9",
+        "damage": 8,
+        "magazine_size": 8,
+        "effects": [
+            "Ice",
+            "Spread 3"
+        ],
+        "description": "Unleash the freezing sea.",
+        "unlock": "",
+        "rarity": "A",
+        "selling_price": 380,
+        "availabilities": [
+            "Everywhere"
+        ],
+        "type": "Unknown"
+    },
+    {
+        "name": "Gold Nugget",
+        "id": "gold-nugget",
+        "image": "https://shipoffools.wiki.gg/images/thumb/5/53/Sand_Dollar.png/50px-Sand_Dollar.png?cd5df9",
+        "damage": 5,
+        "magazine_size": 8,
+        "effects": [
+            "Sand Dollar 1"
+        ],
+        "description": "Kick-start the gold rush with this money making mineral.",
+        "unlock": "",
+        "rarity": "A",
+        "selling_price": 380,
+        "availabilities": [
+            "Everywhere"
+        ],
+        "type": "Unknown"
+    },
+    {
+        "name": "Harmonic Owl",
+        "id": "harmonic-owl",
+        "image": "https://shipoffools.wiki.gg/images/thumb/5/53/Sand_Dollar.png/50px-Sand_Dollar.png?cd5df9",
+        "damage": 10,
+        "magazine_size": 6,
+        "effects": [
+            "Resonance",
+            "Splash"
+        ],
+        "description": "Lays resonance eggs.",
+        "unlock": "By Default",
+        "rarity": "A",
+        "selling_price": 380,
+        "availabilities": [
+            "Everywhere"
+        ],
+        "type": "Unknown"
+    },
+    {
+        "name": "Harpoon",
+        "id": "harpoon",
+        "image": "https://shipoffools.wiki.gg/images/d/dc/Harpoon.png?2b960d",
+        "damage": 5,
+        "magazine_size": 3,
+        "effects": [
+            "Reel in items"
+        ],
+        "description": "Add 1 harpoon to your stock.",
+        "unlock": "By Default",
+        "rarity": "E",
+        "selling_price": 0,
+        "availabilities": [
+            "Everywhere except every Shop and enemy drops"
+        ],
+        "type": "Unknown"
+    },
+    {
+        "name": "Harpoon Box",
+        "id": "harpoon-box",
+        "image": "https://shipoffools.wiki.gg/images/thumb/5/53/Sand_Dollar.png/50px-Sand_Dollar.png?cd5df9",
+        "damage": 5,
+        "magazine_size": 9,
+        "effects": [
+            "Reel in items",
+            "Spread 2 Planks"
+        ],
+        "description": "Add 5 harpoons to your stock.",
+        "unlock": "By Default",
+        "rarity": "C",
+        "selling_price": 50,
+        "availabilities": [
+            "Everywhere"
+        ],
+        "type": "Unknown"
+    },
+    {
+        "name": "Hermitster Shell",
+        "id": "hermitster-shell",
+        "image": "https://shipoffools.wiki.gg/images/thumb/5/53/Sand_Dollar.png/50px-Sand_Dollar.png",
+        "damage": 8,
+        "magazine_size": 10,
+        "effects": [],
+        "description": "Free real estate that packs a punch.",
+        "unlock": "By Default",
+        "rarity": "A",
+        "selling_price": 380,
+        "availabilities": [
+            "Everywhere"
+        ],
+        "type": "Unknown"
+    },
+    {
+        "name": "Ice Cube",
+        "id": "ice-cube",
+        "image": "https://shipoffools.wiki.gg/images/thumb/5/53/Sand_Dollar.png/50px-Sand_Dollar.png?cd5df9",
+        "damage": 5,
+        "magazine_size": 8,
+        "effects": [
+            "Ice"
+        ],
+        "description": "Freeze your enemies in place.",
+        "unlock": "By Default",
+        "rarity": "C",
+        "selling_price": 150,
+        "availabilities": [
+            "Everywhere"
+        ],
+        "type": "Unknown"
+    },
+    {
+        "name": "Ice Shard",
+        "id": "ice-shard",
+        "image": "https://shipoffools.wiki.gg/images/thumb/5/53/Sand_Dollar.png/50px-Sand_Dollar.png?cd5df9",
+        "damage": 5,
+        "magazine_size": 6,
+        "effects": [
+            "Ice",
+            "Pierce"
+        ],
+        "description": "Freezing cold and sharp enough to pierce even the toughest of shells.",
+        "unlock": "By Default",
+        "rarity": "B",
+        "selling_price": 240,
+        "availabilities": [
+            "Everywhere"
+        ],
+        "type": "Unknown"
+    },
+    {
+        "name": "Lava Crucible",
+        "id": "lava-crucible",
+        "image": "https://shipoffools.wiki.gg/images/thumb/5/53/Sand_Dollar.png/50px-Sand_Dollar.png",
+        "damage": 1,
+        "magazine_size": 20,
+        "effects": [
+            "Fire",
+            "+60% Firerate",
+            "Spread 3"
+        ],
+        "description": "Forge a copious amount of fireballs.",
+        "unlock": "",
+        "rarity": "A",
+        "selling_price": 380,
+        "availabilities": [
+            "Everywhere"
+        ],
+        "type": "Unknown"
+    },
+    {
+        "name": "Magma Spike",
+        "id": "magma-spike",
+        "image": "https://shipoffools.wiki.gg/images/thumb/5/53/Sand_Dollar.png/50px-Sand_Dollar.png",
+        "damage": 5,
+        "magazine_size": 6,
+        "effects": [
+            "Fire",
+            "Pierce"
+        ],
+        "description": "So sharp and hot, it can melt through carapaces.",
+        "unlock": "By Default",
+        "rarity": "B",
+        "selling_price": 240,
+        "availabilities": [
+            "Everywhere"
+        ],
+        "type": "Unknown"
+    },
+    {
+        "name": "Mama Gull",
+        "id": "mama-gull",
+        "image": "https://shipoffools.wiki.gg/images/thumb/5/53/Sand_Dollar.png/50px-Sand_Dollar.png?cd5df9",
+        "damage": 0,
+        "magazine_size": 6,
+        "effects": [
+            "Shoot 5 seagulls around the impact point"
+        ],
+        "description": "Lays Seagull eggs.",
+        "unlock": "",
+        "rarity": "S",
+        "selling_price": 510,
+        "availabilities": [
+            "Everywhere"
+        ],
+        "type": "Unknown"
+    },
+    {
+        "name": "Maracas Duet",
+        "id": "maracas-duet",
+        "image": "https://shipoffools.wiki.gg/images/thumb/5/53/Sand_Dollar.png/50px-Sand_Dollar.png",
+        "damage": 3,
+        "magazine_size": 8,
+        "effects": [
+            "Resonance",
+            "Spread 3"
+        ],
+        "description": "Tuning to the power of two.",
+        "unlock": "",
+        "rarity": "S",
+        "selling_price": 510,
+        "availabilities": [
+            "Everywhere"
+        ],
+        "type": "Unknown"
+    },
+    {
+        "name": "Metal Scraps",
+        "id": "metal-scraps",
+        "image": "https://shipoffools.wiki.gg/images/7/77/Scrap_Pile.png",
+        "damage": 1,
+        "magazine_size": 8,
+        "effects": [
+            "Damage is increased by 3 for each artifact placed"
+        ],
+        "description": "Improvised ammo assembled from spare parts. Their DMG is increased by the amount of artifacts you carry.",
+        "unlock": "",
+        "rarity": "Unique",
+        "selling_price": 0,
+        "availabilities": [
+            "Everywhere"
+        ],
+        "type": "Unknown"
+    },
+    {
+        "name": "Mini Crab",
+        "id": "mini-crab",
+        "image": "https://shipoffools.wiki.gg/images/b/b8/Mini_Crab.png?834744",
+        "damage": 100,
+        "magazine_size": 1,
+        "effects": [
+            "Splash"
+        ],
+        "description": "Friendly crab that should be left on the beach.",
+        "unlock": "By Default",
+        "rarity": "Not Really",
+        "selling_price": 75,
+        "availabilities": [
+            "-"
+        ],
+        "type": "Unknown"
+    },
+    {
+        "name": "Molotov",
+        "id": "molotov",
+        "image": "https://shipoffools.wiki.gg/images/thumb/5/53/Sand_Dollar.png/50px-Sand_Dollar.png?cd5df9",
+        "damage": 50,
+        "magazine_size": 1,
+        "effects": [
+            "Fire",
+            "Oil",
+            "Splash"
+        ],
+        "description": "Creates a fire and oil explosion. Partially refills every encounters.",
+        "unlock": "By Default",
+        "rarity": "B",
+        "selling_price": 240,
+        "availabilities": [
+            "Everywhere"
+        ],
+        "type": "Unknown"
+    },
+    {
+        "name": "Oil Barrel",
+        "id": "oil-barrel",
+        "image": "https://shipoffools.wiki.gg/images/thumb/5/53/Sand_Dollar.png/50px-Sand_Dollar.png",
+        "damage": 10,
+        "magazine_size": 5,
+        "effects": [
+            "Spawn an Oil Barrel that can be ignited or destroyed to create an Oil explosion."
+        ],
+        "description": "Barrel-y fits the cannon, but can be cracked open to spill weakening oil.",
+        "unlock": "",
+        "rarity": "A",
+        "selling_price": 380,
+        "availabilities": [
+            "Everywhere"
+        ],
+        "type": "Unknown"
+    },
+    {
+        "name": "Oil Jelly",
+        "id": "oil-jelly",
+        "image": "https://shipoffools.wiki.gg/images/thumb/5/53/Sand_Dollar.png/50px-Sand_Dollar.png",
+        "damage": 5,
+        "magazine_size": 8,
+        "effects": [
+            "Oil"
+        ],
+        "description": "Weaken foes covered by this non-edible oily substance.",
+        "unlock": "By Default",
+        "rarity": "C",
+        "selling_price": 150,
+        "availabilities": [
+            "Everywhere"
+        ],
+        "type": "Unknown"
+    },
+    {
+        "name": "Paper Plane",
+        "id": "paper-plane",
+        "image": "https://shipoffools.wiki.gg/images/thumb/5/53/Sand_Dollar.png/50px-Sand_Dollar.png?cd5df9",
+        "damage": 15,
+        "magazine_size": 1,
+        "effects": [
+            "Homing 10",
+            "Pierce"
+        ],
+        "description": "Winner of the longest airtime challenge at the Archipelago Paper Wing Championship.",
+        "unlock": "",
+        "rarity": "A",
+        "selling_price": 380,
+        "availabilities": [
+            "Everywhere"
+        ],
+        "type": "Unknown"
+    },
+    {
+        "name": "Phasing Clarinet",
+        "id": "phasing-clarinet",
+        "image": "https://shipoffools.wiki.gg/images/thumb/5/53/Sand_Dollar.png/50px-Sand_Dollar.png?cd5df9",
+        "damage": 3,
+        "magazine_size": 6,
+        "effects": [
+            "Resonance",
+            "Pierce"
+        ],
+        "description": "Tune many creatures with one shot, as long as they’re lined up.",
+        "unlock": "By Default",
+        "rarity": "A",
+        "selling_price": 380,
+        "availabilities": [
+            "Everywhere"
+        ],
+        "type": "Unknown"
+    },
+    {
+        "name": "Piercing Shell",
+        "id": "piercing-shell",
+        "image": "https://shipoffools.wiki.gg/images/thumb/5/53/Sand_Dollar.png/50px-Sand_Dollar.png?cd5df9",
+        "damage": 5,
+        "magazine_size": 6,
+        "effects": [
+            "Pierce"
+        ],
+        "description": "A carefully honed homestead.",
+        "unlock": "By Default",
+        "rarity": "B",
+        "selling_price": 240,
+        "availabilities": [
+            "Everywhere"
+        ],
+        "type": "Unknown"
+    },
+    {
+        "name": "Plank",
+        "id": "plank",
+        "image": "https://shipoffools.wiki.gg/images/thumb/5/53/Sand_Dollar.png/50px-Sand_Dollar.png?cd5df9",
+        "damage": 5,
+        "magazine_size": 5,
+        "effects": [
+            "Pierce",
+            "Adds 2 weaker wood chips on each side that deals 3 damage"
+        ],
+        "description": "Repair a hole on the deck.",
+        "unlock": "By Default",
+        "rarity": "C",
+        "selling_price": 50,
+        "availabilities": [
+            "Everywhere except"
+        ],
+        "type": "Unknown"
+    },
+    {
+        "name": "Plank Bundle",
+        "id": "plank-bundle",
+        "image": "https://shipoffools.wiki.gg/images/thumb/5/53/Sand_Dollar.png/50px-Sand_Dollar.png?cd5df9",
+        "damage": 5,
+        "magazine_size": 10,
+        "effects": [
+            "Pierce",
+            "Adds 2 weaker wood chips on each side that deals 3 damage"
+        ],
+        "description": "Repair 3 holes on the deck.",
+        "unlock": "By Default",
+        "rarity": "A",
+        "selling_price": 120,
+        "availabilities": [
+            "Encounter reward"
+        ],
+        "type": "Unknown"
+    },
+    {
+        "name": "Pocket Blizzard",
+        "id": "pocket-blizzard",
+        "image": "https://shipoffools.wiki.gg/images/thumb/5/53/Sand_Dollar.png/50px-Sand_Dollar.png?cd5df9",
+        "damage": 50,
+        "magazine_size": 1,
+        "effects": [
+            "Ice (10 stacks)",
+            "Splash"
+        ],
+        "description": "Creates an ice explosion. Partially refills every encounters.",
+        "unlock": "By Default",
+        "rarity": "B",
+        "selling_price": 240,
+        "availabilities": [
+            "Everywhere"
+        ],
+        "type": "Unknown"
+    },
+    {
+        "name": "Poisonous Dart",
+        "id": "poisonous-dart",
+        "image": "https://shipoffools.wiki.gg/images/thumb/5/53/Sand_Dollar.png/50px-Sand_Dollar.png?cd5df9",
+        "damage": 5,
+        "magazine_size": 6,
+        "effects": [
+            "Oil",
+            "Pierce"
+        ],
+        "description": "Carefully coated in viscous oil to weaken every foe it goes through.",
+        "unlock": "By Default",
+        "rarity": "B",
+        "selling_price": 240,
+        "availabilities": [
+            "Everywhere"
+        ],
+        "type": "Unknown"
+    },
+    {
+        "name": "Potato Bag",
+        "id": "potato-bag",
+        "image": "https://shipoffools.wiki.gg/images/thumb/5/53/Sand_Dollar.png/50px-Sand_Dollar.png",
+        "damage": 3,
+        "magazine_size": 16,
+        "effects": [
+            "Bounce 2"
+        ],
+        "description": "Turn your cannon into a seemingly endless spud gun.",
+        "unlock": "By Default",
+        "rarity": "B",
+        "selling_price": 240,
+        "availabilities": [
+            "Everywhere"
+        ],
+        "type": "Unknown"
+    },
+    {
+        "name": "Puffy Bowl",
+        "id": "puffy-bowl",
+        "image": "https://shipoffools.wiki.gg/images/thumb/5/53/Sand_Dollar.png/50px-Sand_Dollar.png?cd5df9",
+        "damage": 50,
+        "magazine_size": 2,
+        "effects": [
+            "Spawn Puffy"
+        ],
+        "description": "Release an hostile Puffy that cannot be tamed.",
+        "unlock": "By Default",
+        "rarity": "C",
+        "selling_price": 150,
+        "availabilities": [
+            "Everywhere"
+        ],
+        "type": "Unknown"
+    },
+    {
+        "name": "Rainbow Peacock",
+        "id": "rainbow-peacock",
+        "image": "https://shipoffools.wiki.gg/images/thumb/5/53/Sand_Dollar.png/50px-Sand_Dollar.png?cd5df9",
+        "damage": 0,
+        "magazine_size": 0,
+        "effects": [
+            "Lays two random eggs"
+        ],
+        "description": "Lays a RAINBOW of eggs.",
+        "unlock": "",
+        "rarity": "S",
+        "selling_price": 510,
+        "availabilities": [
+            "Everywhere"
+        ],
+        "type": "Unknown"
+    },
+    {
+        "name": "Resonating Harp",
+        "id": "resonating-harp",
+        "image": "https://shipoffools.wiki.gg/images/thumb/5/53/Sand_Dollar.png/50px-Sand_Dollar.png?cd5df9",
+        "damage": 3,
+        "magazine_size": 8,
+        "effects": [
+            "Resonance"
+        ],
+        "description": "Once tuned together, sea creatures share effects and damage.",
+        "unlock": "By Default",
+        "rarity": "B",
+        "selling_price": 240,
+        "availabilities": [
+            "Everywhere"
+        ],
+        "type": "Unknown"
+    },
+    {
+        "name": "Rusty Seablade",
+        "id": "rusty-seablade",
+        "image": "https://shipoffools.wiki.gg/images/thumb/5/53/Sand_Dollar.png/50px-Sand_Dollar.png",
+        "damage": 5,
+        "magazine_size": 6,
+        "effects": [
+            "Pierce",
+            "Crit +10%"
+        ],
+        "description": "Can often be the cause of critical injury.",
+        "unlock": "",
+        "rarity": "A",
+        "selling_price": 380,
+        "availabilities": [
+            "Everywhere"
+        ],
+        "type": "Unknown"
+    },
+    {
+        "name": "Sand Dollar Bag",
+        "id": "sand-dollar-bag",
+        "image": "https://shipoffools.wiki.gg/images/thumb/0/0d/Plank.png/50px-Plank.png?b7e6e9",
+        "damage": 3,
+        "magazine_size": 10,
+        "effects": [
+            "Sand Dollar 3",
+            "Spread 3"
+        ],
+        "description": "Add 50 Sand Dollars to your stock.",
+        "unlock": "By Default",
+        "rarity": "B",
+        "selling_price": 1,
+        "availabilities": [
+            "Everywhere except"
+        ],
+        "type": "Unknown"
+    },
+    {
+        "name": "Sand Dollar Pile",
+        "id": "sand-dollar-pile",
+        "image": "https://shipoffools.wiki.gg/images/4/45/Sand_Dollar_Pile.png?d25f22",
+        "damage": 3,
+        "magazine_size": 5,
+        "effects": [
+            "Sand Dollar 3",
+            "Spread 3"
+        ],
+        "description": "Add 25 Sand Dollars to your stock.",
+        "unlock": "By Default",
+        "rarity": "D",
+        "selling_price": 0,
+        "availabilities": [
+            "Everywhere except"
+        ],
+        "type": "Unknown"
+    },
+    {
+        "name": "Seagull",
+        "id": "seagull",
+        "image": "https://shipoffools.wiki.gg/images/a/a5/Gull.png?1b5474",
+        "damage": 10,
+        "magazine_size": 8,
+        "effects": [
+            "Pierce"
+        ],
+        "description": "Adventurous bird that is afraid of nothing. Except fools.",
+        "unlock": "By Default",
+        "rarity": "Not Really",
+        "selling_price": 75,
+        "availabilities": [
+            "Lighthouse and will land on your boat from time to time"
+        ],
+        "type": "Unknown"
+    },
+    {
+        "name": "Seashell",
+        "id": "seashell",
+        "image": "https://shipoffools.wiki.gg/images/e/eb/Seashell.png",
+        "damage": 5,
+        "magazine_size": 8,
+        "effects": [],
+        "description": "Domicile repurposed due to the Aquapocalypse.",
+        "unlock": "By Default",
+        "rarity": "Unique",
+        "selling_price": 0,
+        "availabilities": [
+            "Everywhere"
+        ],
+        "type": "Unknown"
+    },
+    {
+        "name": "Shield",
+        "id": "shield",
+        "image": "https://shipoffools.wiki.gg/images/thumb/5/53/Sand_Dollar.png/50px-Sand_Dollar.png?cd5df9",
+        "damage": 10,
+        "magazine_size": 1,
+        "effects": [
+            "Bounce 10"
+        ],
+        "description": "Prevent the next DMG on yout ship.",
+        "unlock": "By Default",
+        "rarity": "A",
+        "selling_price": 120,
+        "availabilities": [
+            "Everywhere"
+        ],
+        "type": "Unknown"
+    },
+    {
+        "name": "Simple Chicken",
+        "id": "simple-chicken",
+        "image": "https://shipoffools.wiki.gg/images/thumb/5/53/Sand_Dollar.png/50px-Sand_Dollar.png?cd5df9",
+        "damage": 5,
+        "magazine_size": 12,
+        "effects": [
+            "Splash"
+        ],
+        "description": "Lays simple eggs.",
+        "unlock": "By Default",
+        "rarity": "C",
+        "selling_price": 150,
+        "availabilities": [
+            "Everywhere"
+        ],
+        "type": "Unknown"
+    },
+    {
+        "name": "Siren Scale",
+        "id": "siren-scale",
+        "image": "https://shipoffools.wiki.gg/images/a/a2/SirenScale.png?efd8ea",
+        "damage": 1,
+        "magazine_size": 6,
+        "effects": [
+            "Apply a random effect on hit"
+        ],
+        "description": "Creates a chorus of chaos.",
+        "unlock": "",
+        "rarity": "Unique",
+        "selling_price": 0,
+        "availabilities": [
+            "Everywhere"
+        ],
+        "type": "Unknown"
+    },
+    {
+        "name": "Soap",
+        "id": "soap",
+        "image": "https://shipoffools.wiki.gg/images/thumb/5/53/Sand_Dollar.png/50px-Sand_Dollar.png",
+        "damage": 5,
+        "magazine_size": 12,
+        "effects": [
+            "Projectile speed reduced by 60%",
+            "firing rate increased by 30%"
+        ],
+        "description": "Useful to clean up waves of enemies.",
+        "unlock": "By Default",
+        "rarity": "C",
+        "selling_price": 150,
+        "availabilities": [
+            "Everywhere"
+        ],
+        "type": "Unknown"
+    },
+    {
+        "name": "Sponge",
+        "id": "sponge",
+        "image": "https://shipoffools.wiki.gg/images/thumb/5/53/Sand_Dollar.png/50px-Sand_Dollar.png?cd5df9",
+        "damage": 5,
+        "magazine_size": 8,
+        "effects": [
+            "Splash effect on enemy hit"
+        ],
+        "description": "Splashes every elemental effects affecting the impacted enemy.",
+        "unlock": "",
+        "rarity": "C",
+        "selling_price": 150,
+        "availabilities": [
+            "Everywhere"
+        ],
+        "type": "Unknown"
+    },
+    {
+        "name": "Stingray",
+        "id": "stingray",
+        "image": "https://shipoffools.wiki.gg/images/thumb/5/53/Sand_Dollar.png/50px-Sand_Dollar.png",
+        "damage": 5,
+        "magazine_size": 10,
+        "effects": [
+            "Piercing",
+            "double projectile speed"
+        ],
+        "description": "Projectile is replaced by a laserbeam that pierces through a line.",
+        "unlock": "",
+        "rarity": "B",
+        "selling_price": 240,
+        "availabilities": [
+            "Everywhere"
+        ],
+        "type": "Unknown"
+    },
+    {
+        "name": "Tendril",
+        "id": "tendril",
+        "image": "https://shipoffools.wiki.gg/images/thumb/5/53/Sand_Dollar.png/50px-Sand_Dollar.png?cd5df9",
+        "damage": 20,
+        "magazine_size": 5,
+        "effects": [
+            "Chaos",
+            "Pierce"
+        ],
+        "description": "A little piece of what once was a being of pure light.",
+        "unlock": "By Default",
+        "rarity": "S",
+        "selling_price": 170,
+        "availabilities": [
+            "Everywhere"
+        ],
+        "type": "Unknown"
+    },
+    {
+        "name": "Tornado",
+        "id": "tornado",
+        "image": "https://shipoffools.wiki.gg/images/thumb/5/53/Sand_Dollar.png/50px-Sand_Dollar.png?cd5df9",
+        "damage": 0,
+        "magazine_size": 1,
+        "effects": [
+            "Spawn a Tornado on hit that will drag enemies toward its center while doing 3 damage every half a second for 5 seconds."
+        ],
+        "description": "Creates a tornado. Partially refills every encounter.",
+        "unlock": "",
+        "rarity": "S",
+        "selling_price": 510,
+        "availabilities": [
+            "Everywhere"
+        ],
+        "type": "Unknown"
+    },
+    {
+        "name": "Toxic Raven",
+        "id": "toxic-raven",
+        "image": "https://shipoffools.wiki.gg/images/thumb/5/53/Sand_Dollar.png/50px-Sand_Dollar.png?cd5df9",
+        "damage": 10,
+        "magazine_size": 6,
+        "effects": [
+            "Oil",
+            "Splash"
+        ],
+        "description": "Lays oil eggs.",
+        "unlock": "By Default",
+        "rarity": "B",
+        "selling_price": 240,
+        "availabilities": [
+            "Everywhere"
+        ],
+        "type": "Unknown"
+    },
+    {
+        "name": "Ultrasonic Drum",
+        "id": "ultrasonic-drum",
+        "image": "https://shipoffools.wiki.gg/images/thumb/5/53/Sand_Dollar.png/50px-Sand_Dollar.png?cd5df9",
+        "damage": 50,
+        "magazine_size": 1,
+        "effects": [
+            "Resonance",
+            "Splash"
+        ],
+        "description": "Creates a resonance explosion. Partially refills every encounters.",
+        "unlock": "By Default",
+        "rarity": "A",
+        "selling_price": 380,
+        "availabilities": [
+            "Everywhere"
+        ],
+        "type": "Unknown"
+    },
+    {
+        "name": "Urchin",
+        "id": "urchin",
+        "image": "https://shipoffools.wiki.gg/images/thumb/5/53/Sand_Dollar.png/50px-Sand_Dollar.png?cd5df9",
+        "damage": 2,
+        "magazine_size": 20,
+        "effects": [
+            "Piercing",
+            "75% increased firing speed"
+        ],
+        "description": "The most endangered species of the archipelago.",
+        "unlock": "By Default",
+        "rarity": "C",
+        "selling_price": 150,
+        "availabilities": [
+            "Everywhere"
+        ],
+        "type": "Unknown"
+    },
+    {
+        "name": "Volcanic Rock",
+        "id": "volcanic-rock",
+        "image": "https://shipoffools.wiki.gg/images/thumb/5/53/Sand_Dollar.png/50px-Sand_Dollar.png?cd5df9",
+        "damage": 5,
+        "magazine_size": 8,
+        "effects": [
+            "Fire"
+        ],
+        "description": "Set the seafloor on fire as it is harvested from deep underwater volcanoes.",
+        "unlock": "By Default",
+        "rarity": "C",
+        "selling_price": 150,
+        "availabilities": [
+            "Everywhere"
+        ],
+        "type": "Unknown"
+    },
+    {
+        "name": "Whirlpool",
+        "id": "whirlpool",
+        "image": "https://shipoffools.wiki.gg/images/thumb/5/53/Sand_Dollar.png/50px-Sand_Dollar.png",
+        "damage": 0,
+        "magazine_size": 1,
+        "effects": [
+            "Spawn a Whirlpool on hit that will drag enemies toward its center. Last 5 seconds and deals 50 damage at the end."
+        ],
+        "description": "Creates a whirlpool. Partially refills every encounter.",
+        "unlock": "",
+        "rarity": "A",
+        "selling_price": 380,
+        "availabilities": [
+            "Everywhere"
+        ],
+        "type": "Unknown"
+    }
+]

@@ -1,0 +1,16 @@
+[
+    {
+        "id": "projectile_seashell",
+        "name": "Seashell",
+        "damage": 5,
+        "magazine_size": 8,
+        "effects": [],
+        "description": "Domicile repurposed due to the Aquapocalypse.",
+        "type": "Generator",
+        "unlock": "By Default",
+        "rarity": "Unique",
+        "selling_price": 0,
+        "availabilities": ["Everywhere"],
+        "image": "./assets/projectiles/Seashell.webp"
+    }
+]
