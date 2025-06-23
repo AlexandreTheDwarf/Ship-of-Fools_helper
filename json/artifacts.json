@@ -1,0 +1,30 @@
+[
+    {
+      "id": "the_ship",
+      "name": "The Ship", 
+      "effects": ["Ajouter 3 PV au navire."],
+      "type": "Artifacts",
+      "image": "./assets/artifacts/The_Ship.webp"
+    },
+    {
+      "id": "the_hammer",
+      "name": "The Hammer", 
+      "effects": ["Réparez un trou supplémentaire en utilisant une planche."],
+      "type": "Artifacts",
+      "image": "./assets/artifacts/The_Hammer.webp"
+    },
+    {
+      "id": "the_bombs",
+      "name": "The Bombs", 
+      "effects": ["Doublez la quantité de bombes dans les caisses."],
+      "type": "Artifacts",
+      "image": "./assets/artifacts/The_Bombs.webp"
+    },
+    {
+      "id": "the_magic_hat",
+      "name": "The Magic Hat", 
+      "effects": ["Augmentez la capacité du chargeur de bombes de 2."],
+      "type": "Artifacts",
+      "image": "./assets/artifacts/The_Magic_Hat.webp"
+    }
+]

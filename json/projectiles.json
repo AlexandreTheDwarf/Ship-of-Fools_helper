@@ -5,7 +5,6 @@
         "damage": 5,
         "magazine_size": 8,
         "effects": [],
-        "description": "Domicile repurposed due to the Aquapocalypse.",
         "type": "Generator",
         "unlock": "By Default",
         "rarity": "Unique",

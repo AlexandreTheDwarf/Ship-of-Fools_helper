@@ -1,0 +1,13 @@
+[
+    {
+        "id": "ice_charm",
+        "name": "Ice Charm",
+        "effects": ["Add Ice effect to paddle."],
+        "type": "Paddle",
+        "unlock": "By Default",
+        "rarity": "B",
+        "selling_price": 240,
+        "availabilities": ["Everywhere"],
+        "image": "./assets/trinkets/Ice_Charm.png"
+    }
+]

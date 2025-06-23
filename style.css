@@ -1,0 +1,169 @@
+@font-face {
+font-family: "OpenDyslexic";
+src: url("./assets/OpenDyslexic-Regular.otf");
+}
+
+* {
+font-family: "OpenDyslexic", sans-serif;
+color: #001858;
+}
+
+body{
+    background-color: #fef6e4;
+}
+
+.buttons{
+    display: flex;
+    justify-content: space-between;
+    border-radius: 5px;
+    padding: 15px;
+    background-color: #ffdf93;
+    position: fixed;
+    width: 98vw;
+    top: 0rem;
+}
+
+.imgBtn{
+    width: 60px;
+    height: 60px;
+}
+
+.roomBtn {
+    width: 70px;
+    height: 60px;
+    border-radius: 5px;
+    padding: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.itemImg {
+    width: 65px;
+    height: 65px;
+    padding: 5px;
+    /* image-rendering: pixelated; */
+    object-fit: contain;
+}
+
+#items{
+    width: 70%;
+    float: left;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: start;
+    cursor: pointer;
+    margin-top: 5.5rem;
+}
+
+#description{
+    /* float: right; */
+    width: 30%;
+    height: 90vh; /* ici */
+    background-color: #fbedcd;
+    position: fixed;
+    top: 6rem;
+    right: 1rem;
+    border-radius: 5px;
+}
+
+#description h2{
+    text-align: center;
+}
+
+#description p{
+    padding: 0 20px;
+}
+
+#modal {
+    display: none;
+    position: fixed;
+    z-index: 1000;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 70%;
+    height: 70%;
+    overflow: auto;
+    background-color: #fbedcd;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+
+#close{
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 10px;
+    cursor: pointer;
+    font-size: 30px;
+}
+
+#content{
+    padding: 20px;
+}
+
+#modal-img{
+    width: 5rem;
+    height: 5rem;
+    /* image-rendering: pixelated; */
+    object-fit: contain;
+}
+
+#modal-title{
+    display: flex;
+    flex-direction: row;
+
+}
+
+#modal-text{
+    padding: 30px;
+
+}
+/* Media query pour les écrans entre 390px et 768px de largeur */
+@media (min-width: 390px) and (max-width: 768px) {
+    .buttons{
+        flex-direction: row;
+        flex-wrap: wrap;
+        max-width: 90vw;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #items {
+        width: 100vw;
+        margin-top: 14rem;
+    }
+
+    #description {
+        display: none;
+    }
+}
+
+/* Media query pour les écrans de moins de 390px de largeur */
+@media (max-width: 389px) {
+    .roomBtn {
+        width: 65px;
+        height: 55px;
+    }
+
+    .buttons{
+        flex-direction: row;
+        flex-wrap: wrap;
+        max-width: 90vw;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #items {
+        width: 100vw;
+        margin-top: 14rem;
+    }
+
+    #description {
+        display: none;
+    }
+}
