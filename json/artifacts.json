@@ -98,13 +98,6 @@
       "image": "./assets/artifacts/The_Plague.webp"
     },
     {
-      "id": "the_shell",
-      "name": "The Shell", 
-      "effects": ["Augmente les dégâts des projectiles de 30%."],
-      "type": "Artifacts",
-      "image": "./assets/artifacts/The_Shell.webp"
-    },
-    {
       "id": "the_clock",
       "name": "The Clock", 
       "effects": ["Double la durée des effets."],
@@ -117,5 +110,49 @@
       "effects": ["Révèle un emplacement sur la carte contenant un Coffre Ancien."],
       "type": "Artifacts",
       "image": "./assets/artifacts/The_Treasure_Map.webp"
+    },
+    {
+      "id": "the_vane",
+      "name": "The Vane", 
+      "effects": ["Affiche à l’avance les prochaines cases de la carte qui seront touchées par une tempête."],
+      "type": "Artifacts",
+      "image": "./assets/artifacts/The_Vane.webp"
+    },
+    {
+      "id": "the_barracuda",
+      "name": "The Barracuda", 
+      "effects": ["Les canons tirent 30% plus vite."],
+      "type": "Artifacts",
+      "image": "./assets/artifacts/The_Barracuda.webp"
+    },
+    {
+      "id": "the_stonefish",
+      "name": "The Stonefish", 
+      "effects": [
+        "Tire sur l’ennemi le plus proche toutes les 3 secondes. Se combine bien avec les artefacts d’amélioration. ( The Shell, The Pearls, The Barracuda)"
+      ],
+      "type": "Artifacts",
+      "image": "./assets/artifacts/The_Stonefish.webp"
+    },
+    {
+      "id": "the_double_edged_sword",
+      "name": "The Double Edged Sword", 
+      "effects": ["Inflige 5 dégâts supplémentaires, mais subit 1 dégât de plus."],
+      "type": "Artifacts",
+      "image": "./assets/artifacts/The_Double_Edged_Sword.webp"
+    },
+    {
+      "id": "the_cornucopia",
+      "name": "The Cornucopia", 
+      "effects": ["Stocker des ressources sur des socles augmente toutes les caractéristiques. Pour chaque ressource sur un socle, la cadence de tir, la taille de la pagaie, la vitesse des projectiles et la chance de coup critique sont augmentées de 10 % de façon multiplicative, et 1 point de dégâts ainsi que 1 point de capacité du chargeur sont ajoutés."],
+      "type": "Artifacts",
+      "image": "./assets/artifacts/Cornucopia.png"
+    },
+    {
+      "id": "the_soup",
+      "name": "The Soup", 
+      "effects": ["Augmente fortement la chance de butin des ennemis (+30 %, la chance de base varie selon l’ennemi)."],
+      "type": "Artifacts",
+      "image": "./assets/artifacts/TheSoup.webp"
     }
 ]
