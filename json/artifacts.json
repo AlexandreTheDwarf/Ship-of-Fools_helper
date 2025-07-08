@@ -54,5 +54,61 @@
       "effects": ["Double les gains de dollars de sable."],
       "type": "Artifacts",
       "image": "./assets/artifacts/The_Fortunate_Statuette.webp"
+    },
+    {
+      "id": "the_coins",
+      "name": "The Coins", 
+      "effects": ["Gagne 5 dollars de sable à chaque fois qu’un ennemi meurt."],
+      "type": "Artifacts",
+      "image": "./assets/artifacts/The_Coins.webp"
+    },
+    {
+      "id": "the_hook",
+      "name": "The Hook", 
+      "effects": ["Ajoute 10 points de dégâts aux harpons."],
+      "type": "Artifacts",
+      "image": "./assets/artifacts/The_Hook.png"
+    },
+    {
+      "id": "the_pearls",
+      "name": "The Pearls", 
+      "effects": ["Augmente la capacité du chargeur de 30%."],
+      "type": "Artifacts",
+      "image": "./assets/artifacts/The_Pearls.webp"
+    },
+    {
+      "id": "the_shell",
+      "name": "The Shell", 
+      "effects": ["Augmente les dégâts des projectiles de 30%."],
+      "type": "Artifacts",
+      "image": "./assets/artifacts/The_Shell.webp"
+    },
+    {
+      "id": "the_piano",
+      "name": "The Piano", 
+      "effects": ["Applique Résonance à un ennemi aléatoire toutes les 3 secondes."],
+      "type": "Artifacts",
+      "image": "./assets/artifacts/The_Piano.webp"
+    },
+    {
+      "id": "the_plague",
+      "name": "The Plague", 
+      "effects": ["Applique de l’huile à un ennemi aléatoire toutes les 3 secondes."],
+      "type": "Artifacts",
+      "image": "./assets/artifacts/The_Plague.webp"
+    },
+    {
+      "id": "the_shell",
+      "name": "The Shell", 
+      "effects": ["Augmente les dégâts des projectiles de 30%."],
+      "type": "Artifacts",
+      "image": "./assets/artifacts/The_Shell.webp"
+    },
+    {
+      "id": "the_clock",
+      "name": "The Clock", 
+      "effects": ["Double la durée des effets."],
+      "type": "Artifacts",
+      "image": "./assets/artifacts/The_Clock.webp"
     }
 ]
