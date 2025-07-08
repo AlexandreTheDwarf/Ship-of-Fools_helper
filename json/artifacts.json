@@ -110,5 +110,12 @@
       "effects": ["Double la durée des effets."],
       "type": "Artifacts",
       "image": "./assets/artifacts/The_Clock.webp"
+    },
+    {
+      "id": "the_treasure",
+      "name": "The Treasure", 
+      "effects": ["Révèle un emplacement sur la carte contenant un Coffre Ancien."],
+      "type": "Artifacts",
+      "image": "./assets/artifacts/The_Treasure_Map.webp"
     }
 ]
