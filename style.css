@@ -43,10 +43,9 @@ body{
 }
 
 .itemImg {
-    width: 65px;
-    height: 65px;
+    width: 80px;
+    height: 80px;
     padding: 5px;
-    /* image-rendering: pixelated; */
     object-fit: contain;
 }
 
@@ -161,12 +160,22 @@ body{
         align-items: center;
     }
 
+    .itemImg {
+        width: 65px;
+        height: 65px;
+    }
+
     #items {
         width: 100vw;
+        justify-content: center;
         /* margin-top: 14rem; */
     }
 
     #description {
         display: none;
+    }
+
+    #modal{
+        width: 90%;
     }
 }

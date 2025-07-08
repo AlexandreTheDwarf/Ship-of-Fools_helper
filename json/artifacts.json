@@ -26,5 +26,33 @@
       "effects": ["Augmentez la capacité du chargeur de bombes de 2."],
       "type": "Artifacts",
       "image": "./assets/artifacts/The_Magic_Hat.webp"
+    },
+    {
+      "id": "the_hatcher",
+      "name": "The Hatcher", 
+      "effects": ["L'oiseau pond des œufs deux fois plus vite."],
+      "type": "Artifacts",
+      "image": "./assets/artifacts/The_Hatcher.webp"
+    },
+    {
+      "id": "the_twins",
+      "name": "The Twins", 
+      "effects": ["Les oiseaux pondent un œuf supplémentaire d’un coup."],
+      "type": "Artifacts",
+      "image": "./assets/artifacts/The_Twins.png"
+    },
+    {
+      "id": "the_bucket",
+      "name": "The Bucket", 
+      "effects": ["Attire les mouettes et augmente leurs dégâts en tant que projectile."],
+      "type": "Artifacts",
+      "image": "./assets/artifacts/The_Bucket.webp"
+    },
+    {
+      "id": "the_fortunate_statuette",
+      "name": "The Fortunate Statuette", 
+      "effects": ["Double les gains de dollars de sable."],
+      "type": "Artifacts",
+      "image": "./assets/artifacts/The_Fortunate_Statuette.webp"
     }
 ]
