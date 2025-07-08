@@ -130,7 +130,7 @@ body{
     .buttons{
         flex-direction: row;
         flex-wrap: wrap;
-        max-width: 90vw;
+        max-width: 95vw;
         justify-content: center;
         align-items: center;
     }
