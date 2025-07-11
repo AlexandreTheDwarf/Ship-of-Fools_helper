@@ -125,6 +125,11 @@ body{
     padding: 30px;
 
 }
+
+.inline-icon {
+    height: 1.5em;
+    vertical-align: middle;
+}
 /* Media query pour les écrans entre 390px et 768px de largeur */
 @media (min-width: 390px) and (max-width: 768px) {
     .buttons{

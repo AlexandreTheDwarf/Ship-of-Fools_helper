@@ -26,20 +26,26 @@ function generateItemDetailsHtml(item, includeTitle = false) {
         html += `<h2>${item.name}</h2>`; // Ajoute le titre si demandé
     }
 
-    if (item.type) html += `<p>Types : ${item.type}</p>`;
+    if (item.type) html += `<p>Type : ${item.type}</p>`;
     if (item.damage !== undefined) html += `<p>Dommage : ${item.damage}</p>`;
     if (item.magazine_size !== undefined) html += `<p>Taille du chargeur : ${item.magazine_size}</p>`;
 
     if (item.effects && item.effects.length > 0) {
-        html += `<p>Effets : ${item.effects.join(', ')}</p>`;
+        html += `<p>Effet(s) : ${item.effects.join(', ')}</p>`;
     } else if (item.effects && item.effects.length === 0) {
-        html += `<p>Effets : Aucun</p>`;
+        html += `<p>Effet(s) : Aucun</p>`;
+    }
+
+    if (item.increased_effect) {
+        html += `<p><strong>Effet aggravé :</strong> ${item.increased_effect}</p>`;
     }
 
     if (item.description) html += `<p>${item.description}</p>`;
     if (item.unlock) html += `<p>Débloquer : ${item.unlock}</p>`;
     if (item.rarity) html += `<p>Rareté : ${item.rarity}</p>`;
-    if (item.selling_price !== undefined) html += `<p>Prix de vente : ${item.selling_price}</p>`;
+    if (item.selling_price !== undefined) {
+        html += `<p>Prix de vente : ${replacePriceIcons(item.selling_price.toString())}</p>`;
+    }
 
     if (item.availabilities && item.availabilities.length > 0) {
         html += `<p>Disponibilités : ${item.availabilities.join(', ')}</p>`;
@@ -48,6 +54,21 @@ function generateItemDetailsHtml(item, includeTitle = false) {
     }
 
     return html;
+}
+
+// Fonction utilitaire pour remplacer le texte par des images dans le prix de vente
+function replacePriceIcons(text) {
+    // Remplace "Sand Dollar.png" par l'image correspondante
+    text = text.replace(/(\d*)\s*Sand Dollar\.png/g, (match, qty) => {
+        const n = qty ? qty : 1;
+        return `${n > 1 ? n : ''}<img src="./assets/50px-Sand_Dollar.webp" alt="Sand Dollar" class="inline-icon">`;
+    });
+    // Remplace "Plank.png" par l'image correspondante
+    text = text.replace(/(\d*)\s*Plank\.png/g, (match, qty) => {
+        const n = qty ? qty : 1;
+        return `${n > 1 ? n : ''}<img src="./assets/50px-Plank.webp" alt="Plank" class="inline-icon">`;
+    });
+    return text;
 }
 
 /**
@@ -63,7 +84,17 @@ async function loadAndDisplayItems(url) {
         const data = await response.json();
 
         // Tri ascendant par rapport à l'id (adapté pour les IDs de chaîne)
-        data.sort((a, b) => a.id.localeCompare(b.id));
+        data.sort((a, b) => {
+            // D'abord, on compare les types
+            const typeA = a.type ? a.type.toLowerCase() : '';
+            const typeB = b.type ? b.type.toLowerCase() : '';
+            if (typeA < typeB) return -1;
+            if (typeA > typeB) return 1;
+            // Si les types sont identiques, on compare les noms
+            const nameA = a.name ? a.name.toLowerCase() : '';
+            const nameB = b.name ? b.name.toLowerCase() : '';
+            return nameA.localeCompare(nameB);
+        });
 
         // Nettoyer les conteneurs existants
         itemsDiv.innerHTML = '';
