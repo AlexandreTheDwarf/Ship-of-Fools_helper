@@ -478,7 +478,7 @@
         "rarity": "B",
         "selling_price": "240 Sand Dollar.png ou 3 Plank.png",
         "availabilities": ["Toutes les zones"],
-        "image": "./assets/projectiles/BlueJay.png"
+        "image": "./assets/projectiles/Bluejay.png"
     },
     {
         "id": "projectile_toxic_raven",
