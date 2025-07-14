@@ -661,5 +661,193 @@
         "selling_price": "510 Sand Dollar.png ou 6 Plank.png",
         "availabilities": ["Toutes les zones"],
         "image": "./assets/trinkets/TearoftheStorm.webp"
+    },
+    {
+        "id": "d20",
+        "name": "D20",
+        "effects": ["Augmente la chance de coup critique de 5 %."],
+        "types": ["Critique"],
+        "unlock": "Par défaut",
+        "rarity": "B",
+        "selling_price": "150 Sand Dollar.png ou 2 Plank.png",
+        "availabilities": ["Toutes les zones"],
+        "image": "./assets/trinkets/D20.png"
+    },
+    {
+        "id": "big_bullet",
+        "name": "Big Bullet",
+        "effects": [" Garantit un coup critique sur le dernier projectile des canons que tu charges."],
+        "types": ["Critique"],
+        "unlock": "Par défaut",
+        "rarity": "A",
+        "selling_price": "380 Sand Dollar.png ou 4 Plank.png",
+        "availabilities": ["Toutes les zones"],
+        "image": "./assets/trinkets/Big_Bullet.webp"
+    },
+    {
+        "id": "silver_bullet",
+        "name": "Silver Bullet",
+        "effects": ["Garantit un coup critique sur le premier projectile des canons que tu charges."],
+        "types": ["Critique"],
+        "unlock": "Magasin",
+        "rarity": "S",
+        "selling_price": "510 Sand Dollar.png ou 6 Plank.png",
+        "availabilities": ["Toutes les zones"],
+        "image": "./assets/trinkets/Silver_Bullet.webp"
+    },
+    {
+        "id": "torch_head",
+        "name": "Torch Head",
+        "effects": ["Entre en mode Rage lors des coups critiques."],
+        "types": ["Critique"],
+        "unlock": "Magasin",
+        "rarity": "S",
+        "selling_price": "510 Sand Dollar.png ou 6 Plank.png",
+        "availabilities": ["Toutes les zones"],
+        "image": "./assets/trinkets/Torch_Head.webp"
+    },
+    {
+        "id": "frosty_tentacle",
+        "name": "Frosty Tentacle",
+        "effects": [" Ajoute un effet de Glace aux coups critiques et augmente la probabilité de coup critique de 2 %."],
+        "types": ["Critique"],
+        "unlock": "Par défaut",
+        "rarity": "A",
+        "selling_price": "380 Sand Dollar.png ou 4 Plank.png",
+        "availabilities": ["Toutes les zones"],
+        "image": "./assets/trinkets/Frosty_Tentacle.webp"
+    }
+    ,
+    {
+        "id": "fiery_tentacle",
+        "name": "Fiery Tentacle",
+        "effects": [" Ajoute un effet de Feu aux coups critiques et augmente la probabilité de coup critique de 2 %."],
+        "types": ["Critique"],
+        "unlock": "Par défaut",
+        "rarity": "A",
+        "selling_price": "380 Sand Dollar.png ou 4 Plank.png",
+        "availabilities": ["Toutes les zones"],
+        "image": "./assets/trinkets/Fiery_Tentacle.png"
+    },
+    {
+        "id": "goopy_tentacle",
+        "name": "Goopy Tentacle",
+        "effects": [" Ajoute un effet de Huile aux coups critiques et augmente la probabilité de coup critique de 2 %."],
+        "types": ["Critique"],
+        "unlock": "Par défaut",
+        "rarity": "A",
+        "selling_price": "380 Sand Dollar.png ou 4 Plank.png",
+        "availabilities": ["Toutes les zones"],
+        "image": "./assets/trinkets/Goopy_Tentacle.webp"
+    },
+    {
+        "id": "wavy_tentacle",
+        "name": "Wavy Tentacle",
+        "effects": [" Ajoute un effet de Résonance aux coups critiques et augmente la probabilité de coup critique de 2 %."],
+        "types": ["Critique"],
+        "unlock": "Par défaut",
+        "rarity": "A",
+        "selling_price": "380 Sand Dollar.png ou 4 Plank.png",
+        "availabilities": ["Toutes les zones"],
+        "image": "./assets/trinkets/Wavy_Tentacle.webp"
+    },
+    {
+        "id": "warrior_sculpture",
+        "name": "Warrior Sculpture",
+        "effects": ["Recharge tous les canons lors des coups critiques."],
+        "types": ["Critique"],
+        "unlock": "Magasin",
+        "rarity": "A",
+        "selling_price": "380 Sand Dollar.png ou 4 Plank.png",
+        "availabilities": ["Toutes les zones"],
+        "image": "./assets/trinkets/Warrior_Sculpture.webp"
+    },
+    {
+        "id": "hook_pendant",
+        "name": "Hook Pendant",
+        "effects": ["Augmente les dégâts du harpon de 5."],
+        "types": ["Harpon"],
+        "unlock": "Par défaut",
+        "rarity": "B",
+        "selling_price": "240 Sand Dollar.png ou 3 Plank.png",
+        "availabilities": ["Toutes les zones"],
+        "image": "./assets/trinkets/Hook_Pendant.webp"
+    },
+    {
+        "id": "chilling_essence",
+        "name": "Chilling Essence",
+        "effects": ["Ajoute un effet de Glace aux harpons."],
+        "types": ["Harpon"],
+        "unlock": "Par défaut",
+        "rarity": "B",
+        "selling_price": "240 Sand Dollar.png ou 3 Plank.png",
+        "availabilities": ["Toutes les zones"],
+        "image": "./assets/trinkets/Chilling_Essence.webp"
+    },
+    {
+        "id": "warming_essence",
+        "name": "Warming Essence",
+        "effects": ["Ajoute un effet de Feu aux harpons."],
+        "types": ["Harpon"],
+        "unlock": "Par défaut",
+        "rarity": "B",
+        "selling_price": "240 Sand Dollar.png ou 3 Plank.png",
+        "availabilities": ["Toutes les zones"],
+        "image": "./assets/trinkets/Warming_Essence.webp"
+    },
+    {
+        "id": "Poisoning Essence",
+        "name": "Poisoning Essence",
+        "effects": ["Ajoute un effet de Huile aux harpons."],
+        "types": ["Harpon"],
+        "unlock": "Par défaut",
+        "rarity": "B",
+        "selling_price": "240 Sand Dollar.png ou 3 Plank.png",
+        "availabilities": ["Toutes les zones"],
+        "image": "./assets/trinkets/Poisoning_Essence.webp"
+    },
+    {
+        "id": "musical_essence",
+        "name": "Musical Essence",
+        "effects": ["Ajoute un effet de Résonance aux harpons."],
+        "types": ["Harpon"],
+        "unlock": "Par défaut",
+        "rarity": "B",
+        "selling_price": "240 Sand Dollar.png ou 3 Plank.png",
+        "availabilities": ["Toutes les zones"],
+        "image": "./assets/trinkets/Musical_Essence.webp"
+    },
+    {
+        "id": "tripoon",
+        "name": "Tripoon",
+        "effects": ["Le tir de harpon gagne une dispersion de 3."],
+        "types": ["Harpon"],
+        "unlock": "Magasin",
+        "rarity": "A",
+        "selling_price": "380 Sand Dollar.png ou 4 Plank.png",
+        "availabilities": ["Toutes les zones"],
+        "image": "./assets/trinkets/Tripoon.png"
+    },
+    {
+        "id": "whetstone",
+        "name": "Whetstone",
+        "effects": ["Ajoute un effet de Perforation aux harpons."],
+        "types": ["Harpon"],
+        "unlock": "Par défaut",
+        "rarity": "B",
+        "selling_price": "240 Sand Dollar.png ou 3 Plank.png",
+        "availabilities": ["Toutes les zones"],
+        "image": "./assets/trinkets/Whetstone.webp"
+    },
+    {
+        "id": "rubber_harpoon",
+        "name": "Rubber Harpoon",
+        "effects": ["Ajoute un effet de rebond aux harpons."],
+        "types": ["Harpon"],
+        "unlock": "Magasin",
+        "rarity": "C",
+        "selling_price": "150 Sand Dollar.png ou 2 Plank.png",
+        "availabilities": ["Toutes les zones"],
+        "image": "./assets/trinkets/Rubber_Harpoon.webp"
     }
 ]
