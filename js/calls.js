@@ -26,7 +26,11 @@ function generateItemDetailsHtml(item, includeTitle = false) {
         html += `<h2>${item.name}</h2>`; // Ajoute le titre si demandé
     }
 
-    if (item.type) html += `<p>Type : ${item.type}</p>`;
+    // Remplace l'affichage du type (ancienne version)
+    // if (item.type) html += `<p>Type : ${item.type}</p>`;
+    if (item.types && Array.isArray(item.types) && item.types.length > 0) {
+        html += `<p>Type(s) : ${item.types.join(', ')}</p>`;
+    }
     if (item.damage !== undefined) html += `<p>Dommage : ${item.damage}</p>`;
     if (item.magazine_size !== undefined) html += `<p>Taille du chargeur : ${item.magazine_size}</p>`;
 
@@ -85,9 +89,9 @@ async function loadAndDisplayItems(url) {
 
         // Tri ascendant par rapport à l'id (adapté pour les IDs de chaîne)
         data.sort((a, b) => {
-            // D'abord, on compare les types
-            const typeA = a.type ? a.type.toLowerCase() : '';
-            const typeB = b.type ? b.type.toLowerCase() : '';
+            // D'abord, on compare les types (premier type du tableau ou vide)
+            const typeA = (a.types && a.types.length > 0) ? a.types[0].toLowerCase() : '';
+            const typeB = (b.types && b.types.length > 0) ? b.types[0].toLowerCase() : '';
             if (typeA < typeB) return -1;
             if (typeA > typeB) return 1;
             // Si les types sont identiques, on compare les noms
