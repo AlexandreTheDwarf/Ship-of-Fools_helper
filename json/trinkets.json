@@ -616,7 +616,7 @@
         "rarity": "B",
         "selling_price": "240 Sand Dollar.png ou 3 Plank.png",
         "availabilities": ["Toutes les zones"],
-        "image": "./assets/trinkets/Key_chain_Plushie.webp"
+        "image": "./assets/trinkets/Key_Chain_Plushie.webp"
     },
     {
         "id": "grand_plushie",
