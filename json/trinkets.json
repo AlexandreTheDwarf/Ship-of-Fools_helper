@@ -1003,5 +1003,170 @@
         "selling_price": "240 Sand Dollar.png ou 3 Plank.png",
         "availabilities": ["Toutes les zones"],
         "image": "./assets/trinkets/Beaver_Plushie.webp"
+    },
+    {
+        "id": "slimy_flesh",
+        "name": "Slimy Flesh",
+        "effects": ["Augmente légèrement les dégâts de l’attaque à la pagaie."],
+        "types": ["Récompense de prime"],
+        "unlock": "Jouer avec Hanah",
+        "rarity": "C",
+        "selling_price": "150 Sand Dollar.png ou 2 Plank.png",
+        "availabilities": ["Tuez une limace qui a une prime"],
+        "image": "./assets/trinkets/BountySlurg.webp"
+    },
+    {
+        "id": "buzzing_fragment",
+        "name": "Buzzing Fragment",
+        "effects": ["Augmente légèrement la cadence de tir."],
+        "types": ["Récompense de prime"],
+        "unlock": "Jouer avec Hanah",
+        "rarity": "C",
+        "selling_price": "150 Sand Dollar.png ou 2 Plank.png",
+        "availabilities": ["Tuez une mouche qui a une prime"],
+        "image": "./assets/trinkets/BountyBuzzer.webp"
+    },
+    {
+        "id": "springing_limb",
+        "name": "Springing Limb",
+        "effects": ["Augmente légèrement les dégâts des projectiles."],
+        "types": ["Récompense de prime"],
+        "unlock": "Jouer avec Hanah",
+        "rarity": "C",
+        "selling_price": "150 Sand Dollar.png ou 2 Plank.png",
+        "availabilities": ["Tuez une grenouille qui a une prime"],
+        "image": "./assets/trinkets/BountyBully.png"
+    },
+    {
+        "id": "stinky_manet",
+        "name": "Stinky Manet",
+        "effects": ["Augmente légèrement la capacité de base du chargeur des canons que tu charges."],
+        "types": ["Récompense de prime"],
+        "unlock": "Jouer avec Hanah",
+        "rarity": "C",
+        "selling_price": "150 Sand Dollar.png ou 2 Plank.png",
+        "availabilities": ["Tuez une grosse mouche qui a une prime"],
+        "image": "./assets/trinkets/BountyHatcher.webp"
+    },
+    {
+        "id": "twitching_scythe",
+        "name": "Twitching Scythe",
+        "effects": ["Augmente légèrement la probabilité de coup critique."],
+        "types": ["Récompense de prime"],
+        "unlock": "Jouer avec Hanah",
+        "rarity": "C",
+        "selling_price": "150 Sand Dollar.png ou 2 Plank.png",
+        "availabilities": ["Tuez une araignée qui a une prime"],
+        "image": "./assets/trinkets/BountySpider.png"
+    },
+    {
+        "id": "cracked_shell",
+        "name": "Cracked Shell",
+        "effects": ["Augmente légèrement les dégâts de l’attaque à la pagaie."],
+        "types": ["Récompense de prime"],
+        "unlock": "Jouer avec Hanah",
+        "rarity": "C",
+        "selling_price": "150 Sand Dollar.png ou 2 Plank.png",
+        "availabilities": ["Tuez un bernard l'ermite qui a une prime"],
+        "image": "./assets/trinkets/BountyHermister.webp"
+    },
+    {
+        "id": "gooey_jelly",
+        "name": "Gooey Jelly",
+        "effects": ["Augmente légèrement la cadence de tir."],
+        "types": ["Récompense de prime"],
+        "unlock": "Jouer avec Hanah",
+        "rarity": "C",
+        "selling_price": "150 Sand Dollar.png ou 2 Plank.png",
+        "availabilities": ["Tuez une méduse qui a une prime"],
+        "image": "./assets/trinkets/BountyFloater.png"
+    },
+    {
+        "id": "abyssal_grasp",
+        "name": "Abyssal Grasp",
+        "effects": ["Augmente légèrement les dégâts des projectiles"],
+        "types": ["Récompense de prime"],
+        "unlock": "Jouer avec Hanah",
+        "rarity": "C",
+        "selling_price": "150 Sand Dollar.png ou 2 Plank.png",
+        "availabilities": ["Tuez un crabe qui a une prime"],
+        "image": "./assets/trinkets/BountyCrabster.webp"
+    },
+    {
+        "id": "slithering_coil",
+        "name": "Slithering Coil",
+        "effects": ["Augmente légèrement la capacité de base du chargeur des canons que tu charges."],
+        "types": ["Récompense de prime"],
+        "unlock": "Jouer avec Hanah",
+        "rarity": "C",
+        "selling_price": "150 Sand Dollar.png ou 2 Plank.png",
+        "availabilities": ["Tuez un poulpe qui a une prime"],
+        "image": "./assets/trinkets/BountyScanner.webp"
+    },
+    {
+        "id": "shrapnel_spike",
+        "name": "Shrapnel Spike",
+        "effects": ["Augmente légèrement la probabilité de coup critique."],
+        "types": ["Récompense de prime"],
+        "unlock": "Jouer avec Hanah",
+        "rarity": "C",
+        "selling_price": "150 Sand Dollar.png ou 2 Plank.png",
+        "availabilities": ["Tuez un poisson-globe qui a une prime"],
+        "image": "./assets/trinkets/BountyPufferfish.webp"
+    },
+    {
+        "id": "blasting_beak",
+        "name": "Blasting Beak",
+        "effects": ["Augmente légèrement les dégâts de l’attaque à la pagaie."],
+        "types": ["Récompense de prime"],
+        "unlock": "Jouer avec Hanah",
+        "rarity": "C",
+        "selling_price": "150 Sand Dollar.png ou 2 Plank.png",
+        "availabilities": ["Tuez un pingouin qui a une prime"],
+        "image": "./assets/trinkets/BountyPenguin.webp"
+    },
+    {
+        "id": "stormbound_talon",
+        "name": "Stormbound Talon",
+        "effects": ["Augmente légèrement la cadence de tir."],
+        "types": ["Récompense de prime"],
+        "unlock": "Jouer avec Hanah",
+        "rarity": "C",
+        "selling_price": "150 Sand Dollar.png ou 2 Plank.png",
+        "availabilities": ["Tuez un vautour qui a une prime"],
+        "image": "./assets/trinkets/BountyBeakaner.webp"
+    },
+    {
+        "id": "fluffy_down",
+        "name": "Fluffy Down",
+        "effects": ["Augmente légèrement les dégâts des projectiles"],
+        "types": ["Récompense de prime"],
+        "unlock": "Jouer avec Hanah",
+        "rarity": "C",
+        "selling_price": "150 Sand Dollar.png ou 2 Plank.png",
+        "availabilities": ["Tuez une chouette qui a une prime"],
+        "image": "./assets/trinkets/BountyOwlet.png"
+    },
+    {
+        "id": "festering_feather",
+        "name": "Festering Feather",
+        "effects": ["Augmente légèrement la capacité de base du chargeur des canons que tu charges."],
+        "types": ["Récompense de prime"],
+        "unlock": "Jouer avec Hanah",
+        "rarity": "C",
+        "selling_price": "150 Sand Dollar.png ou 2 Plank.png",
+        "availabilities": ["Tuez une autruche qui a une prime"],
+        "image": "./assets/trinkets/BountyPecker.webp"
+    },
+    {
+        "id": "paralyzing_gaze",
+        "name": "Paralyzing Gaze",
+        "effects": ["Augmente légèrement la probabilité de coup critique."],
+        "types": ["Récompense de prime"],
+        "unlock": "Jouer avec Hanah",
+        "rarity": "C",
+        "selling_price": "150 Sand Dollar.png ou 2 Plank.png",
+        "availabilities": ["Tuez un hibou cyclope qui a une prime"],
+        "image": "./assets/trinkets/BountyOwl.png"
     }
 ]
