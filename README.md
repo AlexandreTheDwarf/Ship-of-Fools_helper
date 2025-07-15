@@ -34,12 +34,11 @@ Pour utiliser Ship Of Fools Helper en local, suivez ces étapes simples :
 
 1.  **Clonez le dépôt :**
     ```bash
-    git clone [https://github.com/AlexandreTheDwarf/Isaac_Helper.git](https://github.com/AlexandreTheDwarf/Isaac_Helper.git)
+    git clone [https://github.com/AlexandreTheDwarf/Ship-of-Fools_helper.git](https://github.com/AlexandreTheDwarf/Ship-of-Fools_helper.git)
     ```
-    *(Note : Le nom du dépôt est actuellement `Isaac_Helper`, même si le projet s'appelle Ship Of Fools Helper. Vous pourriez envisager de renommer votre dépôt GitHub pour plus de cohérence si vous le souhaitez.)*
 2.  **Naviguez vers le répertoire du projet :**
     ```bash
-    cd Isaac_Helper
+    cd Ship-of-Fools_helper
     ```
 3.  **Ouvrez le fichier `index.html` :**
     Double-cliquez simplement sur le fichier `index.html` dans votre explorateur de fichiers, ou ouvrez-le avec votre navigateur web préféré.
