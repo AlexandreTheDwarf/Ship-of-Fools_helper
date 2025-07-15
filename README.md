@@ -34,7 +34,7 @@ Pour utiliser Ship Of Fools Helper en local, suivez ces étapes simples :
 
 1.  **Clonez le dépôt :**
     ```bash
-    git clone [https://github.com/AlexandreTheDwarf/Ship-of-Fools_helper.git](https://github.com/AlexandreTheDwarf/Ship-of-Fools_helper.git)
+    git clone https://github.com/AlexandreTheDwarf/Ship-of-Fools_helper.git
     ```
 2.  **Naviguez vers le répertoire du projet :**
     ```bash
